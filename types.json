@@ -1,0 +1,14 @@
+{
+  "shapes" : {
+    "circle" : {"shape": "circle", "height": 7, "width":7, "colour": "#AAAAAA", "orientation": "right"},
+    "cross"   : {"shape": "cross", "height": 7, "width":7, "colour": "#6600cc", "orientation": "right"},
+    "diamond"  : {"shape": "diamond", "height": 10, "width": 10, "colour": "#6600ff"},
+    "square"  : {"triangle", "square": 10, "width": 15, "colour": "#CCCCCC", "orientation":"left"},
+    "triangle"    : {"shape": "triangle-up ", "height": 7, "width": 7, "colour": "#FFFFFF"}
+},
+  "lines" : {
+      "solid" : {"colour":"#AAAAAA", "width": 2},
+      "dashed" : {"colour":"#99ccff", "width": 2},
+  }
+}
+
