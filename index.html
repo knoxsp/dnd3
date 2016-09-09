@@ -1,16 +1,20 @@
+<meta charset="UTF-8">
 <html>
   <head>
   <title>Drag and drop polygons from a palette into an svg using html5 and d3</title>
     <script src="https://d3js.org/d3.v4.min.js"></script>
-    <script src="dnd3.js"/>
+    <script src="dnd3.js"></script>
     <link rel="stylesheet" href="dnd3.css" type="text/css">
   </head>
   <body>
-    <div class="main">
-      <div class="palette">
+    <div id="main">
+      <div id="palette">
       </div>
-      <div class="canvas">
+      <div id="canvas">
       </div>
     </div>
   </body>
+  <script>
+    loadShapesIntoPalette();
+  </script>
 </html
